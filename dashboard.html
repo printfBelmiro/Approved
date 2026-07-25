@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styleDash.css">
+    <title>Dashboard</title>
+</head>
+<body>
+       <header>
+        <h3 class="approved">Approved</h3>
+       <h3 class="estatisticas" cursor="pointer">Estatísticas</h3> 
+       <h3 class="perfil" cursor="pointer">Perfil</h3>
+       </header>
+    
+
+     <h2 class="bomdia">Como vai, <span id="username">Usuário</span></h2>
+     <h2 class="horas">Hoje voce estudou por <span id="study-time">0</span> <h2 class="horas2">horas!</h2></h2>
+
+     <h2 class="ranking" > Seu ranking de matérias</h2>
+
+
+     <label for="periodo"></label>
+
+<select id="periodo">
+    <option value="hoje">Hoje</option>
+<option value="semana">Esta semana</option>
+    <option value="mes">Este mês</option>
+    <option value="ano">Este ano</option>
+    <option value="total">Todo o período</option>
+</select>
+
+    
+   <script src="dashboard.js"></script>
+     </body>
+</html>

@@ -1,0 +1,123 @@
+body {
+
+    margin: 0;
+    background:#b94d0e;
+
+}
+
+.approved {
+    color: hsl(23, 75%, 16%);
+    margin-left: 55px;
+    font-size: 28px;
+    font-weight:1000;
+    margin-top: 18px;
+    font-family: "Space Grotesk", sans-serif;
+    margin-right: auto;
+
+}
+
+.estatisticas{
+     
+color: hsl(24, 33%, 59%);
+    font-size:25px;
+    font-weight:1000;
+    font-family:"Space Grotesk", sans-serif;
+    margin-right:40px;
+    text-decoration:none;
+
+}
+
+.perfil{
+     
+    color: hsl(24, 33%, 59%);
+    font-size:25px;
+    font-weight:1000;
+    font-family:"Space Grotesk", sans-serif;
+    margin-right:40px;
+    text-decoration:none;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    padding: 8px 10px;
+   gap:40px;
+    background: rgba(219, 84, 5, 0.144);
+
+
+    z-index: 1000;
+}
+
+.bomdia{
+   color: hsl(23, 75%, 16%);
+   font-size:25px;
+   font-weight:600;
+ font-family:'Times New Roman', Times, serif;
+  margin-left:70px;
+  margin-top:200px;
+
+}
+
+.horas{
+
+color: hsl(24, 33%, 59%);
+   font-size:25px;
+   font-weight:600;
+ font-family:'Times New Roman', Times, serif;
+  margin-left:70px;
+  margin-top:12px;
+  opacity:0.88;
+
+
+}
+.horas2{
+    color: hsl(23, 75%, 16%);
+    font-size:26px;
+   font-family:'Times New Roman', Times, serif;
+    margin-top:-50px;
+    margin-left:334px;
+     font-weight:600;
+}
+.ranking{
+      color: hsl(23, 75%, 16%);
+   font-size:40px;
+   font-weight:700;
+ font-family:'Times New Roman', Times, serif;
+  margin-left:730px;
+  margin-top:-115px;
+
+
+
+}
+
+#periodo{
+    width: 160px;
+    padding: 9px;
+
+    border-radius: 10px;
+    border: none;
+
+     position: absolute;
+    margin-left:1180px;
+    margin-top:-76px;
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(10px);
+
+    color: rgb(250, 235, 226);
+    font-size: 20px;
+    font-family: "Space Grotesk", sans-serif;
+
+    cursor: pointer;
+}
+
+#periodo option{
+    color: black;
+    background: rgb(250, 235, 226);
+}

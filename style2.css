@@ -1,0 +1,125 @@
+body {
+   margin: 0;
+    min-height: 100vh;
+   
+
+
+}
+
+ #bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    z-index: -2;
+
+   
+}
+
+
+.nome,
+.email,
+.senha,
+.confirmar{
+    display: block;
+
+    width: 450px;
+    height: 55px;
+
+    margin: 38px auto;
+
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 15px;
+
+    padding: 0 20px;
+
+    color: white;
+    font-size: 20px;
+    font-family: "Space Grotesk", sans-serif;
+
+    outline: none;
+
+    transition: .5s;
+}
+.nome:focus,
+.email:focus,
+.senha:focus,
+.confirmar:focus{
+    border: 1px solid #F08A3E;
+    box-shadow: 0 0 18px rgba(240,138,62,.35);
+}
+.nome::placeholder,
+.email::placeholder,
+.senha::placeholder,
+.confirmar::placeholder{
+    color: rgba(255,255,255,.65);
+}
+
+.nome{
+    display: block;
+    margin-top:80px;
+
+}
+.criar{
+  color: rgb(248, 240, 235);
+    opacity: 0.92;
+    border-radius: 15px;
+    width: 420px;
+    height: 105px;
+    padding: 20px 50px;
+    margin-top:30px;
+    margin-left: 495px;
+    text-align: center;
+    font-size: 55px;
+    font-family: "Times New Roman", sans-serif;
+    cursor: pointer;
+
+    border: 1px solid rgba(247, 219, 193, 0.192);
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+
+    appearance: none;
+    -webkit-appearance: none;
+
+    outline: none;
+}
+.criar::placeholder{
+    color:white;
+}
+.criar:focus{
+    border: 1px solid rgba(240, 138, 62, 0.7);
+    box-shadow: 0 0 15px rgba(240, 138, 62, 0.35);
+}
+.ja {
+    background:transparent;
+     color: hsl(22, 71%, 93%);
+    font-size: 25px;
+    font-family: times new roman, sans-serif;
+    margin-top:45px;
+    margin-left: 553px;
+}
+
+.entrar:visited {
+    color: hsl(23, 90%, 27%);
+}
+
+.entrar:hover {
+    color: hsl(23, 90%, 27%);
+}
+
+.entrar:active {
+    color: hsl(23, 90%, 27%);
+}
+
+.entrar:focus {
+    border-color: hsl(23, 79%, 35%);
+    
+}
