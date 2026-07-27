@@ -30,7 +30,43 @@
     <option value="total">Todo o período</option>
 </select>
 
+     <p class="add">Adicionar estudo:</p>
+
+    <div class="lista">
+     <h2 id="addmateria" > Matéria:</h2>
+        <select id="materiaselect">Matéria</select> 
+        <button id="abrirPopup"> Nova matéria</button>
+    </div>
+
+
+    <div id="overlay">
+    <div id="popup">
+   <h2>Nova matéria</h2>
+
+      <input type="text" id="novaMateria" placeholder="Digite a matéria">
+
+     <div class="botoes">
+   <button id="cancelar">Cancelar</button>
+   <button id="adicionar">Adicionar</button>
+    </div>
+    </div>
+   </div>
     
+     
+      <div class="select_tempo">
+     <h2 class="addtempo">Tempo estudado:</h2>
+       <label for="horas" class="horas3">Horas:</label>
+   <input type="number" id="horas" min="0" max="23" placeholder="0">
+
+      <label for="minutos" class="minutos">Minutos:</label>
+   <input type="number" id="minutos" min="0" max="59" placeholder="00">
+
+    <button id="botaoaddtempo">Adicionar</button>
+       </div>
+
+
+  
+
    <script src="dashboard.js"></script>
      </body>
 </html>
